@@ -1,6 +1,10 @@
 #MvcRazorToPdf
 Create pdf documents within an asp .net mvc project by generating your views as normal but returning a PdfActionResult.
 
+##Important Note
+
+The iText library used is licensed under AGPL. This license permits you to use the library for free, if you open source your code. It also contains a CopyLeft clause, meaning it applies to all consuming libraries. If you choose to use this (MvcRazorToPdf) library in a closed source, commercial application you will need to license iText appropriately. Please see http://itextpdf.com/Pricing for more details.
+
 *Demo link to follow
 
 This converts regular produced razor/html to pdf documents in the browser using the iTextXmlWorker.
